@@ -1,0 +1,648 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+
+  padding: 60px 0;
+}
+
+.header {
+  background-color: #292c2ce0;
+  color: white;
+  width: 100%;
+  content: "";
+  clear: both;
+  display: table;
+  padding: 20px 30px;
+  position: absolute;
+  z-index: 2;
+}
+.header span {
+  border: 2px solid white;
+  height: 35px;
+  position: absolute;
+}
+.header h2 {
+  float: left;
+}
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: right;
+}
+
+.header ul li {
+  display: inline-block;
+}
+.header ul li a {
+  display: inline-block;
+  padding: 0 16px;
+}
+.header ul li.search a {
+  color: white;
+  margin-left: 20px;
+  font-size: 20px;
+  vertical-align: text-top;
+}
+
+/* Hero Section  */
+
+.heroSection {
+  background-image: url("../images/web-agency.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+
+  height: 600px;
+  background-position: 0 -6px;
+  overflow: hidden;
+}
+
+/* Filter section  */
+
+.heroSection .filter {
+  color: white;
+  float: left;
+  width: 10%;
+  padding: 150px 100px;
+}
+.heroSection .filter p.line {
+  border-left: 2px solid white;
+  margin: auto;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  margin-left: 7px;
+}
+
+.heroSection .filter p.line .innerLine {
+  border-left: 7px solid white;
+  height: 40px;
+  margin-left: -5px;
+  border-radius: 4px;
+}
+
+.heroSection .textSection {
+  float: left;
+  width: 30%;
+  margin-left: 100px;
+  padding: 150px 0;
+}
+
+.heroSection .textSection h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+.heroSection .textSection p {
+  color: white;
+  margin: 20px 0;
+  font-size: 13px;
+  width: 80%;
+}
+
+.heroSection .textSection button {
+  margin-top: 17px;
+  padding: 10px 26px;
+  border: none;
+  font-size: 12px;
+}
+
+.heroSection .textSection button.black {
+  color: white;
+  background-color: black;
+}
+
+.heroSection .textSection button.white {
+  color: black;
+  background-color: white;
+}
+
+.heroSection .textSection ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 80px;
+}
+.heroSection .textSection ul li {
+  float: left;
+  background-color: white;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 3px;
+}
+.heroSection .textSection ul li.black {
+  background-color: black;
+}
+
+/* Service  */
+
+.service h1 {
+  text-align: center;
+  color: #464646;
+}
+.service hr {
+  text-align: center;
+  width: 100px;
+  height: 5px;
+  margin: auto;
+  background: #464646;
+  border: none;
+  margin-top: 5px;
+}
+
+/* Service Parts  */
+
+.serviceParts {
+  margin: 66px 0;
+}
+.serviceParts::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.serviceParts .part {
+  float: left;
+  width: 32%;
+
+  margin: 0 5px;
+  border: 1px solid rgb(175 164 164 / 30%);
+  padding: 15px 30px;
+  box-shadow: 0 4px 5px 0 rgb(175 164 164 / 10%),
+    0 6px 10px 0 rgb(175 164 164 / 10%);
+}
+
+.serviceParts .darkBorder {
+  border: 1px solid black;
+}
+.serviceParts .part .imageDiv {
+  max-height: 100px;
+  padding: 20px 0;
+}
+.serviceParts .part .imageDiv i {
+  font-size: 50px;
+}
+.serviceParts .part h2 {
+  font-size: 19px;
+  line-height: 24px;
+}
+.serviceParts .part p {
+  margin: 12px 0 30px 0;
+  line-height: 18px;
+  font-size: 13px;
+  font-weight: 200;
+}
+.serviceParts .part button {
+  background: #464646;
+  color: white;
+  border: none;
+  padding: 8px 19px;
+  margin-top: 10px;
+  float: right;
+}
+
+/* Aroows  */
+
+.arrow_div {
+  width: 160px;
+  margin: auto;
+}
+
+.arrow_div button {
+  padding: 12px 28px;
+  background: black;
+  color: white;
+  border: none;
+  margin-right: 12px;
+}
+.arrow_div i {
+  font-size: 17px;
+}
+
+.arrow_div button.whiteArrow {
+  background-color: white;
+  color: black;
+  box-shadow: 0 4px 5px 0 rgb(175 164 164 / 10%),
+    0 6px 10px 0 rgb(175 164 164 / 10%);
+}
+
+/* AboutCompany  */
+
+.aboutCompany {
+  height: 500px;
+  background-image: url("../images/menhand.jpg");
+  background-repeat: no-repeat;
+  margin: 36px 0px;
+  background-position: 0px -61px;
+  background-size: cover;
+}
+.aboutCompany .overlay {
+  background-color: #000000a1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+  align-items: center;
+  color: white;
+}
+
+.aboutCompany .overlay hr {
+  width: 50px;
+  height: 5px;
+  margin: 0 auto;
+  background: white;
+  border: none;
+  margin-top: 5px;
+}
+
+.aboutCompany .overlay p {
+  margin: 15px 0px;
+  font-size: 13px;
+}
+
+/* Play button  */
+
+.firstPlay {
+  background-color: #ffffff4f;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.secondPlay {
+  background-color: #ffffff33;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thirdPlay {
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thirdPlay img {
+  width: 20px;
+  height: 22px;
+}
+
+/* projects  */
+
+.projects h1 {
+  text-transform: capitalize;
+}
+.projects hr {
+  width: 50px;
+  height: 5px;
+
+  background: black;
+  border: none;
+  margin-top: 5px;
+}
+
+/* project parts  */
+
+.projectParts {
+  padding: 40px 0;
+}
+.projectParts::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.projectParts .part {
+  float: left;
+  width: 45%;
+  margin: 5px;
+
+  min-height: 300px;
+  box-shadow: 0 4px 5px 0 rgb(175 164 164 / 10%),
+    0 6px 10px 0 rgb(175 164 164 / 10%);
+}
+
+.projectParts .part img {
+  object-fit: cover;
+}
+
+.projectParts .part .topImg {
+  width: 100%;
+  height: 150px;
+}
+
+.projectParts .part .content {
+  width: 100%;
+  padding: 40px 30px;
+  position: relative;
+}
+
+.projectParts .part .content p {
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.circleIcon {
+  display: flex;
+  position: absolute;
+  top: -17px;
+  left: 40px;
+}
+.projectParts .part .content .search {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.projectParts .part .content .search i {
+  border-radius: 50%;
+  color: white;
+}
+
+.projectParts .part .content .hyperlink {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 4px 5px 0 rgb(175 164 164 / 10%),
+    0 6px 10px 0 rgb(175 164 164 / 10%);
+}
+
+.projects button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px 40px;
+  margin: auto;
+  display: block;
+  margin-top: 15px;
+}
+
+/* Choose  */
+
+.fullChoose {
+  background-color: black;
+  color: white;
+}
+
+.choose h1 {
+  text-align: left;
+}
+.choose hr {
+  width: 100px;
+  height: 5px;
+
+  background: white;
+  border: none;
+  margin-top: 5px;
+}
+
+.chooseParts {
+  padding: 66px 10px;
+  overflow: hidden;
+}
+.chooseParts .part {
+  float: left;
+  width: 33%;
+}
+
+.chooseParts .part .imageDiv {
+  max-height: 50px;
+  padding: 20px 0 50px 0;
+  color: white;
+}
+.chooseParts .part .imageDiv i {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.chooseParts .part h2 {
+  font-size: 19px;
+  line-height: 24px;
+}
+.chooseParts .part p {
+  margin: 12px 0 30px 0;
+  line-height: 18px;
+  font-size: 15px;
+}
+.chooseParts .part button {
+  background: white;
+  color: black;
+  border: none;
+  padding: 8px 19px;
+  margin-top: 10px;
+}
+
+/* formSection */
+
+.formSection {
+  padding: 50px 10px;
+  overflow: hidden;
+}
+.getTouch {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+.getTouch hr {
+  width: 50px;
+  height: 5px;
+
+  background: black;
+  border: none;
+  margin-top: 5px;
+}
+.getTouch input,
+.getTouch textarea {
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid #00000030;
+}
+
+.getTouch input {
+  padding: 8px 14px;
+}
+.getTouch button {
+  background: black;
+  margin-top: 30px;
+  color: white;
+  padding: 18px 30px;
+  border: none;
+}
+
+.clients {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+.clients .profileSection {
+  box-shadow: 0 4px 5px 0 rgb(175 164 164 / 10%),
+    0 6px 10px 0 rgb(175 164 164 / 10%);
+  margin-top: 104px;
+  position: relative;
+  padding: 10px 15px;
+}
+.clients .profileSection img {
+  width: 81px;
+  position: absolute;
+  top: -21px;
+}
+.clients .profileSection span {
+  margin-left: 100px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.clients .profileSection p {
+  margin-top: 1px;
+  padding: 20px 0;
+}
+.clients .profileSection i {
+  position: absolute;
+  right: 55px;
+  top: 15px;
+  font-size: 22px;
+}
+.clients .arrow_div {
+  margin-top: 30px;
+}
+
+.clients .arrow_div i {
+  font-size: 15px;
+}
+
+/* big Footer  */
+
+.bigFooterBlack {
+  background-color: #222222;
+  padding: 30px 0;
+}
+
+.logoGrid {
+  padding: 20px 0;
+  overflow: hidden;
+}
+.logoGrid .logo {
+  float: left;
+  width: 20%;
+  padding-left: 20px;
+}
+
+.logoGrid .logo span {
+  border: 2px solid white;
+  height: 35px;
+  position: absolute;
+}
+.logoGrid .logo h2 {
+  float: left;
+  color: white;
+}
+.logoGrid .form {
+  float: left;
+  width: 80%;
+  padding: 0 10px;
+}
+
+.logoGrid .form input {
+  width: 70%;
+  padding: 9px 11px;
+  border: none;
+}
+
+.logoGrid .form button {
+  background: #151515;
+  width: 25%;
+  border: none;
+  color: white;
+  padding: 10px 12px;
+}
+
+.addressGrid {
+  color: white;
+  overflow: hidden;
+  padding: 20px 10px;
+}
+.addressGrid .one {
+  float: left;
+  width: 25%;
+  padding: 0 20px;
+}
+.addressGrid .one h3 {
+  margin-bottom: 10px;
+}
+
+.addressGrid .one p {
+  line-height: 35px;
+}
+.addressGrid .one ul {
+  list-style-type: none;
+}
+
+.addressGrid .one ul li {
+  margin: 10px 0;
+}
+
+.addressGrid .one ul li i {
+  margin-right: 5px;
+}
+.addressGrid .one ul li,
+.addressGrid .one p {
+  font-size: 14px;
+}
+
+/* Footer  */
+
+.footer {
+  background-color: #151515;
+  padding: 17px 0;
+
+  overflow: hidden;
+}
+.innerFooter {
+  width: 70%;
+  margin: auto;
+
+  color: white;
+}
+.innerFooter .text {
+  width: 50%;
+  float: left;
+  font-size: 14px;
+}
+
+.innerFooter .socialIcons {
+  float: left;
+  width: 50%;
+  text-align: right;
+}
+
+.innerFooter .socialIcons i {
+  margin-right: 10px;
+}
